@@ -1,0 +1,22 @@
+{
+	"body": {
+		"version": "1.0",
+		"response": {
+			"outputSpeech": {
+				"type": "SSML",
+				"ssml": "<speak> nope, you have 2 more chance left. </speak>"
+			},
+			"reprompt": {
+				"outputSpeech": {
+					"type": "SSML",
+					"ssml": "<speak> undefined </speak>"
+				}
+			},
+			"shouldEndSession": false
+		},
+		"sessionAttributes": {
+			"game": "guessing",
+			"guess": "3"
+		}
+	}
+}

@@ -1,0 +1,3 @@
+All user input are passed through the code and can now easily be updated which their specific jason output.
+
+The jason out puts are converted into the speech context by the built in administrative system.

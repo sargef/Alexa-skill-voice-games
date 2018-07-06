@@ -1,0 +1,22 @@
+{
+	"body": {
+		"version": "1.0",
+		"response": {
+			"outputSpeech": {
+				"type": "SSML",
+				"ssml": "<speak> Try our latest game crazy cricket. Welcome to Voice Games. Recommended before playing this game please go through the instructions, Today we have guessing game. To start say guessing game. </speak>"
+			},
+			"reprompt": {
+				"outputSpeech": {
+					"type": "SSML",
+					"ssml": "<speak> To start say guessing game. </speak>"
+				}
+			},
+			"shouldEndSession": false
+		},
+		"sessionAttributes": {
+			"game": "",
+			"guess": ""
+		}
+	}
+}

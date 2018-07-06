@@ -1,0 +1,22 @@
+{
+	"body": {
+		"version": "1.0",
+		"response": {
+			"outputSpeech": {
+				"type": "SSML",
+				"ssml": "<speak> Lets start, select a number between 1 to 10. </speak>"
+			},
+			"reprompt": {
+				"outputSpeech": {
+					"type": "SSML",
+					"ssml": "<speak> select a number between 1 to 10 </speak>"
+				}
+			},
+			"shouldEndSession": false
+		},
+		"sessionAttributes": {
+			"game": "guessing",
+			"guess": ""
+		}
+	}
+}
