@@ -1,0 +1,157 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my games",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SetMyGameIntent",
+                    "slots": [
+                        {
+                            "name": "games",
+                            "type": "games"
+                        }
+                    ],
+                    "samples": [
+                        "Let's play {games} game",
+                        "{games} game",
+                        "Let's play {games}",
+                        "start {games} game"
+                    ]
+                },
+                {
+                    "name": "SetMyGuessIntent",
+                    "slots": [
+                        {
+                            "name": "guess",
+                            "type": "guess"
+                        }
+                    ],
+                    "samples": [
+                        "I select {guess}",
+                        "my number is {guess}",
+                        "Is it {guess}"
+                    ]
+                },
+                {
+                    "name": "SetMyInstructionIntent",
+                    "slots": [
+                        {
+                            "name": "instructions",
+                            "type": "instructions"
+                        }
+                    ],
+                    "samples": [
+                        "First tell me {instructions}",
+                        "no first tell me {instructions}",
+                        "i don't know {instructions}",
+                        "Tell me the {instructions}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "games",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "guessing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "words"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "guess",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "o"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "7"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "9"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "instructions",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "rules"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "procedure"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "instructions"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
